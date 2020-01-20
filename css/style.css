@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.balta {
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+}
+.colonnaleft {
+    width: 30%;
+    height: 400px;
+    background-color: pink;
+    float: left;
+}
+
+.colonnacentr {
+    width: 30%;
+    height: 400px;
+    background-color: red;
+    float: left;
+    margin: 0 5%;
+}
+
+.colonnaright {
+    width: 30%;
+    height: 400px;
+    background-color: Violet;
+    float: right;
+
+}
+.bbassa {
+    width: 100%;
+    height: 120px;
+    background-color: SlateBlue;
+    float: left;
+
+}
